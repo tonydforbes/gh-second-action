@@ -1,5 +1,5 @@
-import MainContent from './components/MainContent';
-import logo from './assets/images/logo.png';
+import MainContent from "./components/MainContent";
+import logo from "./assets/images/logo.png";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
           <img src={logo} />
         </div>
         <h1>Learn & Master GitHub Actions</h1>
+        <h2>Crash course for Tony Forbes</h2>
       </header>
       <MainContent />
     </>
